@@ -46,7 +46,7 @@ int k2 = Convert.ToInt32(Console.ReadLine());
 int x=0;
 int y=0;
 
-if ((k1-k2)==0) Console.WriteLine("Точки пересечения нет");
+if ((k1-k2)==0 || (b2-b1) ==0) Console.WriteLine("Точки пересечения нет");
 else 
 {
 x=(b2-b1)/(k1-k2);
